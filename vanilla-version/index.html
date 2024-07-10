@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamburger Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="hamburger-menu">
+        <div id="menu-icon" class="menu-icon">
+            &#9776; <!-- This is the hamburger icon -->
+        </div>
+        <div id="overlay" class="overlay"></div>
+        <nav id="menu" class="menu">
+            <ul>
+                <li><a href="#home" onclick="closeMenu()">Home</a></li>
+                <li><a href="#about" onclick="closeMenu()">About</a></li>
+                <li><a href="#services" onclick="closeMenu()">Soundspack</a></li>
+                <li><a href="#contact" onclick="closeMenu()">Download</a></li>
+                <hr />
+                <li><a href="#signup" onclick="closeMenu()">Sign up</a></li>
+            </ul>
+        </nav>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
