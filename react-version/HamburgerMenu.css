@@ -58,7 +58,7 @@
 @media (max-width: 768px) {
     .menu {
         width: 100%;
-        height: 75vh; /* Adjust height as needed for mobile */
+        height: 40vh; /* Adjust height as needed for mobile */
         top: -75vh; /* Initial position off-screen for mobile */
         right: 0;
     }
